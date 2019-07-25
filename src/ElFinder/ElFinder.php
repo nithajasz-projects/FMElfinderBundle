@@ -199,7 +199,7 @@ class ElFinder extends BaseElFinder
                             if (is_string($handler) && strpos($handler, '.')) {
                                 list($_domain, $_name, $_method) = array_pad(explode('.', $handler), 3, '');
                                 if (0 === strcasecmp($_domain, 'plugin')) {
-                                    if ($plugin = $this->getPluginInstance($_name, isset($opts['plugin'][$_name]) ? $opts['plugin'][$_name] : array())
+                                    if ($plugin = $this->getPluginInstance($_name, isset($opts['plugins'][$_name]) ? $opts['plugins'][$_name] : array())
                                         and method_exists($plugin, $_method)) {
                                         $this->bind($cmd, array($plugin, $_method));
                                     }
