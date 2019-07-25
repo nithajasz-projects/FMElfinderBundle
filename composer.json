@@ -1,19 +1,15 @@
 {
-    "name": "helios-ag/fm-elfinder-bundle",
+    "name": "nithajasz-projects/fm-elfinder-bundle",
     "description": "ElFinder bundle, adds ElFinder file manager to your Symfony project",
     "keywords": ["elfinder", "file manager", "wysiwyg"],
     "type": "symfony-bundle",
-    "homepage": "https://github.com/helios-ag/FMElfinderBundle",
+    "homepage": "https://github.com/nithajasz-projects/FMElfinderBundle",
     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
-            "name": "Al Ganiev",
-            "email": "helios.ag@gmail.com"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://github.com/helios-ag/FMElfinderBundle/contributors"
+            "name": "Nithajasz",
+            "email": "nithajasz@gmail.com"
         }
     ],
     "archive": {
